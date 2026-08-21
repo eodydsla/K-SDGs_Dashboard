@@ -1,0 +1,306 @@
+indicator_id,page_code,page_name,url,match,score,order
+1-1-2,KOSIS-202-DT_202022_C12,급여종류별 국민연금 수급인구,https://kosis.kr/statHtml/statHtml.do?orgId=202&tblId=DT_202022_C12&conn_path=I2,context,65,1
+1-1-2,KOSIS-202-DT_202022_C20,실업급여 수급(연도별),https://kosis.kr/statHtml/statHtml.do?orgId=202&tblId=DT_202022_C20&conn_path=I2,context,65,2
+1-1-2,KOSIS-117-DT_11777_N120,사회복지지출 비율 (GDP 대비),https://kosis.kr/statHtml/statHtml.do?orgId=117&tblId=DT_11777_N120&conn_path=I2,context,57,3
+1-1-2,KOSIS-117-DT_11777_N220,총사회복지지출 비율 (GDP 대비),https://kosis.kr/statHtml/statHtml.do?orgId=117&tblId=DT_11777_N220&conn_path=I2,context,57,4
+1-2-2,KOSIS-331-DT_33109_N065,고용보험 가입 실태,https://kosis.kr/statHtml/statHtml.do?orgId=331&tblId=DT_33109_N065&conn_path=I2,context,67,1
+1-2-2,KOSIS-331-DT_33109_N066,고용보험 급여 수급경험,https://kosis.kr/statHtml/statHtml.do?orgId=331&tblId=DT_33109_N066&conn_path=I2,context,67,2
+1-2-2,KOSIS-331-DT_33109_N068,고용보험급여 연간 수급 개월 수 및 수급액,https://kosis.kr/statHtml/statHtml.do?orgId=331&tblId=DT_33109_N068&conn_path=I2,context,67,3
+1-2-2,KOSIS-322-DT_322001_C013,고용보험 가입현황,https://kosis.kr/statHtml/statHtml.do?orgId=322&tblId=DT_322001_C013&conn_path=I2,context,67,4
+1-2-3,KOSIS-331-DT_33109_N044,국민연금 보험료 납부여부,https://kosis.kr/statHtml/statHtml.do?orgId=331&tblId=DT_33109_N044&conn_path=I2,near,92,1
+1-2-3,KOSIS-331-TX_33109_A262,현재 국민연금 보험료를 납부하지 않는 이유,https://kosis.kr/statHtml/statHtml.do?orgId=331&tblId=TX_33109_A262&conn_path=I2,near,92,2
+1-2-3,KOSIS-101-DT_1SSWE023R,"사회보험료 부담에 대한 인식 (국민연금, 19세 이상 가구주)",https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1SSWE023R&conn_path=I2,near,92,3
+1-3-1,KOSIS-117-DT_11777_N120,사회복지지출 비율 (GDP 대비),https://kosis.kr/statHtml/statHtml.do?orgId=117&tblId=DT_11777_N120&conn_path=I2,context,62,1
+1-3-1,KOSIS-117-DT_11777_N220,총사회복지지출 비율 (GDP 대비),https://kosis.kr/statHtml/statHtml.do?orgId=117&tblId=DT_11777_N220&conn_path=I2,context,62,2
+1-3-1,KOSIS-443-DT_443001_112,GDP 비중,https://kosis.kr/statHtml/statHtml.do?orgId=443&tblId=DT_443001_112&conn_path=I2,context,62,3
+1-3-1,KOSIS-113-DT_113_STBL_1024771,콘텐츠산업 : GDP 대비 부가가치액 비중,https://kosis.kr/statHtml/statHtml.do?orgId=113&tblId=DT_113_STBL_1024771&conn_path=I2,context,62,4
+1-3-2,KOSIS-101-DT_3KB9027,[사회복지 서비스업] 시도/산업/직능별 종사자 현황,https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_3KB9027&conn_path=I2,exact,115,1
+1-3-2,KOSIS-101-DT_1KB9027,시도/산업/직능별 종사자 현황(사회복지 서비스업),https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1KB9027&conn_path=I2,exact,115,2
+1-3-2,KOSIS-337-DT_337004_2021_E002,신재생에너지 서비스업 현황 - 종사자수,https://kosis.kr/statHtml/statHtml.do?orgId=337&tblId=DT_337004_2021_E002&conn_path=I2,context,75,3
+1-3-2,KOSIS-472-DT_472001_A023,성별 정규직 종사자 수,https://kosis.kr/statHtml/statHtml.do?orgId=472&tblId=DT_472001_A023&conn_path=I2,context,69,4
+1-4-1,KOSIS-117-DT_117111_A010,고독사 사망 전 1년간 긴급복지지원 대상자 여부: 성별·연령별,https://kosis.kr/statHtml/statHtml.do?orgId=117&tblId=DT_117111_A010&conn_path=I2,context,66,1
+10-1-1,KOSIS-101-DT_1HDAAA21,"순자산, 가구소득의 분위별 평균, 점유율 및 경계값",https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1HDAAA21&conn_path=I2,context,65,1
+10-2-1,KOSIS-341-DT_34101_001,소득5분위별 가구주 특성,https://kosis.kr/statHtml/statHtml.do?orgId=341&tblId=DT_34101_001&conn_path=I2,near,94,1
+10-2-1,KOSIS-341-DT_34101_005,소득5분위별 연간 소득원천별 가구소득,https://kosis.kr/statHtml/statHtml.do?orgId=341&tblId=DT_34101_005&conn_path=I2,near,94,2
+10-2-1,KOSIS-341-DT_34101_006,소득5분위별 자산 및 부채(순자산),https://kosis.kr/statHtml/statHtml.do?orgId=341&tblId=DT_34101_006&conn_path=I2,near,94,3
+10-2-1,KOSIS-341-DT_34101_010,"소득5분위별 신고유형별 소득공제액(특별공제, 조특법상 공제)",https://kosis.kr/statHtml/statHtml.do?orgId=341&tblId=DT_34101_010&conn_path=I2,near,94,4
+10-2-2,KOSIS-101-DT_1HDAAD03,순자산 10분위별 가구의 순자산 점유율,https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1HDAAD03&conn_path=I2,near,104,1
+10-2-2,KOSIS-101-DT_1HDAAA21,"순자산, 가구소득의 분위별 평균, 점유율 및 경계값",https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1HDAAA21&conn_path=I2,near,82,2
+10-2-2,KOSIS-101-DT_1HDAAD02,"소득분위별 자산, 부채, 순자산 점유율",https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1HDAAD02&conn_path=I2,near,82,3
+10-5-2,KOSIS-110-TX_11025_A000_A,시도별 외국인주민 현황,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=TX_11025_A000_A&conn_path=I2,near,84,1
+10-5-2,KOSIS-110-TX_11025_A001_A,시군구별 외국인주민 현황,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=TX_11025_A001_A&conn_path=I2,near,84,2
+10-5-2,KOSIS-110-DT_110025_A030_A,시군구별 연령별  외국인 주민현황(계),https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_110025_A030_A&conn_path=I2,near,84,3
+10-5-2,KOSIS-110-DT_110025_A033_A,읍면동별 유형 및 지역별 외국인 주민현황,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_110025_A033_A&conn_path=I2,near,84,4
+10-5-3,KOSIS-154-DT_MOGE_3021100135,일반국민 주요 변수별 다문화수용성지수(KMAI),https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_MOGE_3021100135&conn_path=I2,exact,126,1
+10-5-3,KOSIS-154-DT_MOGE_3021100280,다문화수용성 진단도구(KMCI)의 구성개념 및 가중치,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_MOGE_3021100280&conn_path=I2,exact,120,2
+10-5-3,KOSIS-154-DT_154019_25AA060001,다문화수용성 지수,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_154019_25AA060001&conn_path=I2,exact,120,3
+10-5-3,KOSIS-154-DT_154019_25AA061005,다문화 수용성 : 다양성차원 척도 Ⅰ,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_154019_25AA061005&conn_path=I2,exact,120,4
+10-5-4,KOSIS-110-TX_110_2009_H1008_1,특정직공무원 교육직 현원,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=TX_110_2009_H1008_1&conn_path=I2,near,84,1
+10-5-4,KOSIS-110-TX_110_2009_H1005_1,일반직공무원 기관별 현원,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=TX_110_2009_H1005_1&conn_path=I2,context,71,2
+10-5-4,KOSIS-110-TX_110_2009_H1006_1,일반직공무원 직렬별(일반+시간선택제) 현원,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=TX_110_2009_H1006_1&conn_path=I2,context,71,3
+10-5-4,KOSIS-110-TX_110_2009_H1007_1,특정직공무원 소방직 현원,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=TX_110_2009_H1007_1&conn_path=I2,context,71,4
+11-1-1,KOSIS-109-DT_109006_B007,최저주거기준 미달 가구,https://kosis.kr/statHtml/statHtml.do?orgId=109&tblId=DT_109006_B007&conn_path=I2,context,72,1
+11-1-2,KOSIS-170-DT_170002_B008,"기숙사, 향토학사, 공공임대주택 거주 경험",https://kosis.kr/statHtml/statHtml.do?orgId=170&tblId=DT_170002_B008&conn_path=I2,context,72,1
+11-1-2,KOSIS-170-DT_170002_B027,공공임대주택 거주 의향,https://kosis.kr/statHtml/statHtml.do?orgId=170&tblId=DT_170002_B027&conn_path=I2,context,72,2
+11-1-2,KOSIS-116-DT_MLTM_7017,공공임대주택 입주 의사,https://kosis.kr/statHtml/statHtml.do?orgId=116&tblId=DT_MLTM_7017&conn_path=I2,context,72,3
+11-1-2,KOSIS-116-DT_MLTM_6150,공공임대주택에 입주하려는 이유,https://kosis.kr/statHtml/statHtml.do?orgId=116&tblId=DT_MLTM_6150&conn_path=I2,context,72,4
+11-4-1,KOSIS-150-DT_150002_A037,세계유산 관람객 현황,https://kosis.kr/statHtml/statHtml.do?orgId=150&tblId=DT_150002_A037&conn_path=I2,context,56,1
+11-5-2,KOSIS-136-DT_136022_2019_06_023,자연재해로 인한 피해 여부,https://kosis.kr/statHtml/statHtml.do?orgId=136&tblId=DT_136022_2019_06_023&conn_path=I2,context,56,1
+11-5-2,KOSIS-651-DT_651006_L011,병충해와 자연재해로 인한 생산량 감소 피해 여부 및 피해정도,https://kosis.kr/statHtml/statHtml.do?orgId=651&tblId=DT_651006_L011&conn_path=I2,context,56,2
+11-6-1,KOSIS-106-DT_106N_03_0200176,"미세먼지(PM2.5) 월별 대기오염도(측정망별,시도별,도시별,측정지점별)",https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_03_0200176&conn_path=I2,context,56,1
+11-6-1,KOSIS-106-DT_106N_03_0200076,"미세먼지(PM10) 월별 대기오염도(측정망별,시도별,도시별,측정지점별)",https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_03_0200076&conn_path=I2,context,56,2
+11-6-1,KOSIS-106-DT_106N_99_2300011,미세먼지(PM-10) 배출량,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_99_2300011&conn_path=I2,context,56,3
+11-6-1,KOSIS-106-DT_106N_99_2300020,초미세먼지(PM-2.5) 배출량,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_99_2300020&conn_path=I2,context,56,4
+11-6-2,KOSIS-106-DT_106N_99_2300020,초미세먼지(PM-2.5) 배출량,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_99_2300020&conn_path=I2,context,66,1
+11-6-3,KOSIS-201-DT_201004_O120010,사업장폐기물 발생량 및 처리현황(2019년 이전),https://kosis.kr/statHtml/statHtml.do?orgId=201&tblId=DT_201004_O120010&conn_path=I2,exact,109,1
+11-6-3,KOSIS-106-DT_106N_09_0600043,배출시설계폐기물 종류별 원단위 발생량,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_09_0600043&conn_path=I2,near,103,2
+11-6-3,KOSIS-106-DT_106N_09_0600044,비배출시설계폐기물 종류별 원단위 발생량,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_09_0600044&conn_path=I2,near,103,3
+11-6-3,KOSIS-106-DT_106N_09_0600045,지정폐기물 종류별 원단위 발생량,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_09_0600045&conn_path=I2,near,103,4
+11-7-1,KOSIS-460-TX_315_2009_H1013,인구1인당 도시지역 면적,https://kosis.kr/statHtml/statHtml.do?orgId=460&tblId=TX_315_2009_H1013&conn_path=I2,context,69,1
+11-7-1,KOSIS-201-DT_201004_K070007,1인당 거주면적(2005~2007),https://kosis.kr/statHtml/statHtml.do?orgId=201&tblId=DT_201004_K070007&conn_path=I2,context,69,2
+11-7-1,KOSIS-110-TX_11001_A155,도시공원(1984~2000),https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=TX_11001_A155&conn_path=I2,context,57,3
+11-7-1,KOSIS-110-TX_11001_A394,도시공원(1978~1981),https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=TX_11001_A394&conn_path=I2,context,57,4
+12-2-1,KOSIS-115-DT_115041_A004,국가자원소비량(DMC),https://kosis.kr/statHtml/statHtml.do?orgId=115&tblId=DT_115041_A004&conn_path=I2,context,66,1
+12-3-2,KOSIS-110-DT_11001N_2013_A054,1일 1인당 폐기물 발생량,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_11001N_2013_A054&conn_path=I2,context,67,1
+12-3-2,KOSIS-110-DT_11001N_2013_A057,1일 1인당 오수발생량,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_11001N_2013_A057&conn_path=I2,context,67,2
+12-3-2,KOSIS-106-DT_106N_09_0600027,발생원별 종업원 1인당 폐기물 원단위 발생량,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_09_0600027&conn_path=I2,context,67,3
+12-3-2,KOSIS-106-DT_106N_09_0600031,발생원별 이용객수 1인당 폐기물 원단위 발생량,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_09_0600031&conn_path=I2,context,67,4
+12-4-2,KOSIS-106-DT_106N_13_0200011,화학물질별 배출량·위탁처리량,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_13_0200011&conn_path=I2,context,56,1
+12-4-2,KOSIS-106-DT_106N_13_0200012,농단별 화학물질 배출량・위탁처리량,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_13_0200012&conn_path=I2,context,56,2
+12-4-2,KOSIS-106-DT_106N_13_0100020,업종별 화학물질 배출량·위탁처리량,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_13_0100020&conn_path=I2,context,56,3
+12-4-2,KOSIS-106-DT_106N_13_0100017,산단별 화학물질 배출량·위탁처리량,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_13_0100017&conn_path=I2,context,56,4
+12-4-3,KOSIS-110-DT_11001N_2013_A054,1일 1인당 폐기물 발생량,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_11001N_2013_A054&conn_path=I2,context,67,1
+12-4-3,KOSIS-110-DT_11001N_2013_A057,1일 1인당 오수발생량,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_11001N_2013_A057&conn_path=I2,context,67,2
+12-4-3,KOSIS-106-DT_106N_09_0600027,발생원별 종업원 1인당 폐기물 원단위 발생량,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_09_0600027&conn_path=I2,context,67,3
+12-4-3,KOSIS-106-DT_106N_09_0600031,발생원별 이용객수 1인당 폐기물 원단위 발생량,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_09_0600031&conn_path=I2,context,67,4
+12-5-2,KOSIS-106-DT_106N_99_3300017,폐기물 발생현황_사업장배출시설계폐기물(1996-1998),https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_99_3300017&conn_path=I2,near,95,1
+12-5-2,KOSIS-106-DT_106N_29_2020007,폐기물 발생량 및 처리현황_사업장배출시설계폐기물,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_29_2020007&conn_path=I2,near,95,2
+12-5-2,KOSIS-106-DT_106N_29_2020011,폐기물 처리주체별 처리현황_사업장배출시설계폐기물,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_29_2020011&conn_path=I2,near,95,3
+12-5-2,KOSIS-106-DT_106N_99_3300008,폐기물 처리현황_사업장배출시설계폐기물,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_99_3300008&conn_path=I2,near,95,4
+12-6-2,KOSIS-791-DT_791007_2023A065,가족친화인증 인증기관·기업수,https://kosis.kr/statHtml/statHtml.do?orgId=791&tblId=DT_791007_2023A065&conn_path=I2,context,63,1
+12-7-2,KOSIS-214-DT_A3_2013,외국산 생활용품의 구입여부와 구입사유,https://kosis.kr/statHtml/statHtml.do?orgId=214&tblId=DT_A3_2013&conn_path=I2,context,58,1
+12-8-2,KOSIS-417-DT_417001_0024,정부가 국민의 의견에 관심이 없다고 생각하는 정도,https://kosis.kr/statHtml/statHtml.do?orgId=417&tblId=DT_417001_0024&conn_path=I2,context,63,1
+12-8-2,KOSIS-204-DT_204010_2022_075,지역 환경의식 및 대처 수준 평가,https://kosis.kr/statHtml/statHtml.do?orgId=204&tblId=DT_204010_2022_075&conn_path=I2,context,57,2
+12-8-2,KOSIS-204-DT_204010_I003,지역 환경의식과 대처 수준,https://kosis.kr/statHtml/statHtml.do?orgId=204&tblId=DT_204010_I003&conn_path=I2,context,57,3
+12-9-1,KOSIS-101-DT_1ED0001,1인당 연간 양곡소비량,https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1ED0001&conn_path=I2,context,76,1
+12-9-1,KOSIS-201-DT_201004_O060009,1인당 최종에너지 소비량,https://kosis.kr/statHtml/statHtml.do?orgId=201&tblId=DT_201004_O060009&conn_path=I2,context,76,2
+12-9-1,KOSIS-117-DT_11781_N001,국민1인당 의약품 판매액,https://kosis.kr/statHtml/statHtml.do?orgId=117&tblId=DT_11781_N001&conn_path=I2,context,70,3
+13-1-1,KOSIS-460-TX_315_2009_H1061,방재시설 : 하천 등,https://kosis.kr/statHtml/statHtml.do?orgId=460&tblId=TX_315_2009_H1061&conn_path=I2,near,81,1
+13-1-1,KOSIS-460-TX_315_2009_H1136,방재시설 : 방풍설비 등,https://kosis.kr/statHtml/statHtml.do?orgId=460&tblId=TX_315_2009_H1136&conn_path=I2,near,81,2
+13-1-1,KOSIS-460-TX_315_2009_H1062,하천,https://kosis.kr/statHtml/statHtml.do?orgId=460&tblId=TX_315_2009_H1062&conn_path=I2,context,75,3
+13-1-1,KOSIS-460-TX_315_2009_H1063A,유수지,https://kosis.kr/statHtml/statHtml.do?orgId=460&tblId=TX_315_2009_H1063A&conn_path=I2,context,75,4
+13-2-1,KOSIS-218-DT_218006_Y2022_R18Z_SUB2,기후변화대응 및 자원 절약을 위한 실천사항 1) 가까운 거리는 걷거나 자전거 이용,https://kosis.kr/statHtml/statHtml.do?orgId=218&tblId=DT_218006_Y2022_R18Z_SUB2&conn_path=I2,context,55,1
+13-2-2,KOSIS-800-DT_80001_F000012,신재생에너지 설비 설치 용량,https://kosis.kr/statHtml/statHtml.do?orgId=800&tblId=DT_80001_F000012&conn_path=I2,context,74,1
+13-2-2,KOSIS-113-DT_113_STBL_1020860,관 주도 체력관리 전담기관 설치 및 운영 필요성 연도별 비교,https://kosis.kr/statHtml/statHtml.do?orgId=113&tblId=DT_113_STBL_1020860&conn_path=I2,context,66,2
+13-2-2,KOSIS-337-DT_337001_2023A01,신·재생 에너지생산량_서울,https://kosis.kr/statHtml/statHtml.do?orgId=337&tblId=DT_337001_2023A01&conn_path=I2,context,57,3
+13-2-2,KOSIS-201-DT_201004_O060008,신재생에너지 생산량,https://kosis.kr/statHtml/statHtml.do?orgId=201&tblId=DT_201004_O060008&conn_path=I2,context,57,4
+13-3-1,KOSIS-154-DT_MOGE_15000001045,경영목표 및 추진계획 수립·운영,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_MOGE_15000001045&conn_path=I2,context,64,1
+13-3-1,KOSIS-154-DT_MOGE_1500000164,경영목표나 추진계획을 수립하여 운영(2011),https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_MOGE_1500000164&conn_path=I2,context,64,2
+13-3-2,KOSIS-389-DT_389003_A044,교육훈련 이수의 의무화 여부,https://kosis.kr/statHtml/statHtml.do?orgId=389&tblId=DT_389003_A044&conn_path=I2,context,62,1
+13-4-1,KOSIS-106-DT_106N_99_2800020,국가 온실가스 분야별 배출량 추이,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_99_2800020&conn_path=I2,exact,120,1
+13-4-1,KOSIS-337-DT_337_2019_H2001G,상업공공부문 업종별 온실가스 배출량,https://kosis.kr/statHtml/statHtml.do?orgId=337&tblId=DT_337_2019_H2001G&conn_path=I2,exact,120,2
+13-4-1,KOSIS-337-DT_337_2022_H1012,기업 규모 업종별 온실가스 배출량,https://kosis.kr/statHtml/statHtml.do?orgId=337&tblId=DT_337_2022_H1012&conn_path=I2,exact,120,3
+13-4-1,KOSIS-337-DT_337_2022_H1014,기업 규모 지역별 온실가스 배출량,https://kosis.kr/statHtml/statHtml.do?orgId=337&tblId=DT_337_2022_H1014&conn_path=I2,exact,120,4
+14-7-1,KOSIS-453-DT_39301_11_052,"연구개발 형태, 투자비중 및 조달 방법",https://kosis.kr/statHtml/statHtml.do?orgId=453&tblId=DT_39301_11_052&conn_path=I2,context,55,1
+14-7-2,KOSIS-112-DT_112017N_46,국내 기술이전 대상 지역 현황,https://kosis.kr/statHtml/statHtml.do?orgId=112&tblId=DT_112017N_46&conn_path=I2,context,61,1
+14-7-2,KOSIS-442-DT_21_10,기후기술 영역별 국내/해외 기술이전 방식,https://kosis.kr/statHtml/statHtml.do?orgId=442&tblId=DT_21_10&conn_path=I2,context,61,2
+14-7-2,KOSIS-115-DT_TX_115_2018_H0034,국내특허 출원·등록 건수,https://kosis.kr/statHtml/statHtml.do?orgId=115&tblId=DT_TX_115_2018_H0034&conn_path=I2,context,55,3
+14-7-2,KOSIS-115-DT_115022_015,국내·해외특허 출원·등록 건수,https://kosis.kr/statHtml/statHtml.do?orgId=115&tblId=DT_115022_015&conn_path=I2,context,55,4
+14-7-3,KOSIS-146-DT_MLTM_5002692,수산업 및 관련 산업 육성/발전 관련 정부의 우선적 지원이 필요한 부분(1순위),https://kosis.kr/statHtml/statHtml.do?orgId=146&tblId=DT_MLTM_5002692&conn_path=I2,context,59,1
+14-7-3,KOSIS-146-DT_MLTM_5002850,해양수산 분야 종사자수:평균,https://kosis.kr/statHtml/statHtml.do?orgId=146&tblId=DT_MLTM_5002850&conn_path=I2,context,57,2
+14-8-1,KOSIS-322-DT_322001_C001,공적연금 가입률 및 보험료 납부 여부(60세 미만),https://kosis.kr/statHtml/statHtml.do?orgId=322&tblId=DT_322001_C001&conn_path=I2,context,62,1
+15-1-2,KOSIS-136-DT_136014_10211,임상별 영급별 산림통계 표본점 산림면적,https://kosis.kr/statHtml/statHtml.do?orgId=136&tblId=DT_136014_10211&conn_path=I2,context,56,1
+15-1-2,KOSIS-136-DT_5THFO006,[임상별·영급별 산림통계][표본점] 산림면적,https://kosis.kr/statHtml/statHtml.do?orgId=136&tblId=DT_5THFO006&conn_path=I2,context,56,2
+15-1-2,KOSIS-136-DT_136001_9641,연도별 임상별 산림면적 및 임목축적,https://kosis.kr/statHtml/statHtml.do?orgId=136&tblId=DT_136001_9641&conn_path=I2,context,56,3
+15-1-2,KOSIS-110-DT_11001N_2013_A022,산림면적,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_11001N_2013_A022&conn_path=I2,context,56,4
+15-2-1,KOSIS-136-DT_136022_10127,영림업및목재수확업_산림경영계획 수립시 혜택 인지여부,https://kosis.kr/statHtml/statHtml.do?orgId=136&tblId=DT_136022_10127&conn_path=I2,near,81,1
+15-2-1,KOSIS-136-DT_13622_2017009,소유 산림에 대한 산림경영계획 여부,https://kosis.kr/statHtml/statHtml.do?orgId=136&tblId=DT_13622_2017009&conn_path=I2,near,81,2
+15-2-1,KOSIS-136-DT_13622_B022,산림경영이 적정한 산림 규모,https://kosis.kr/statHtml/statHtml.do?orgId=136&tblId=DT_13622_B022&conn_path=I2,near,81,3
+15-3-1,KOSIS-556-DT_55601_A001017,토지지목별 토지면적,https://kosis.kr/statHtml/statHtml.do?orgId=556&tblId=DT_55601_A001017&conn_path=I2,context,77,1
+15-3-1,KOSIS-722-DT_72201_A002,행정구역(읍면동)별/토지지목별 토지면적,https://kosis.kr/statHtml/statHtml.do?orgId=722&tblId=DT_72201_A002&conn_path=I2,context,77,2
+15-3-1,KOSIS-206-DT_206012_N044,자치구별 독거노인 소유 건축물 수 및 토지면적,https://kosis.kr/statHtml/statHtml.do?orgId=206&tblId=DT_206012_N044&conn_path=I2,context,77,3
+15-3-1,KOSIS-206-DT_206012_N050,토지면적별 토지소유 독거노인,https://kosis.kr/statHtml/statHtml.do?orgId=206&tblId=DT_206012_N050&conn_path=I2,context,77,4
+15-6-2,KOSIS-722-DT_72201_E029,"행정구역(읍면동)별/산림피해별 건수,면적,피해액",https://kosis.kr/statHtml/statHtml.do?orgId=722&tblId=DT_72201_E029&conn_path=I2,context,57,1
+15-6-2,KOSIS-777-DT_77701_E001045,"산림피해별 건수,면적,피해액",https://kosis.kr/statHtml/statHtml.do?orgId=777&tblId=DT_77701_E001045&conn_path=I2,context,57,2
+15-6-2,KOSIS-206-DT_20603_E001045_1,"행정구역(자치구)별/산림피해별 건수, 면적, 피해액(2006~2011)",https://kosis.kr/statHtml/statHtml.do?orgId=206&tblId=DT_20603_E001045_1&conn_path=I2,context,57,3
+16-1-1,KOSIS-164-DT_164003_A089,디지털 성범죄 목격 경험,https://kosis.kr/statHtml/statHtml.do?orgId=164&tblId=DT_164003_A089&conn_path=I2,context,57,1
+16-1-1,KOSIS-164-DT_164003_A091,최근 1년간 디지털 성범죄 목격 경험 및 빈도 : 몰카,https://kosis.kr/statHtml/statHtml.do?orgId=164&tblId=DT_164003_A091&conn_path=I2,context,57,2
+16-1-1,KOSIS-164-DT_164003_A101A,강력하게 처벌해야 할 디지털 성범죄 유형(복수응답),https://kosis.kr/statHtml/statHtml.do?orgId=164&tblId=DT_164003_A101A&conn_path=I2,context,57,3
+16-1-1,KOSIS-164-DT_164003_A101,가장 두려운 디지털 성범죄 유형(1순위),https://kosis.kr/statHtml/statHtml.do?orgId=164&tblId=DT_164003_A101&conn_path=I2,context,57,4
+16-1-2,KOSIS-154-DT_MOGE_1001300983,다문화가족 자녀의 학교폭력 피해 경험 여부,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_MOGE_1001300983&conn_path=I2,exact,126,1
+16-1-2,KOSIS-154-DT_117079_25DD004012,초·중·고 재학 자녀의 지난 1년간 학교폭력 피해 경험,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_117079_25DD004012&conn_path=I2,exact,126,2
+16-1-2,KOSIS-117-DT_117074_2023_A121,학교폭력 피해 및 가해 경험(9-17세),https://kosis.kr/statHtml/statHtml.do?orgId=117&tblId=DT_117074_2023_A121&conn_path=I2,exact,126,3
+16-1-2,KOSIS-117-TX_117_2009_H8046,학교폭력 피해경험,https://kosis.kr/statHtml/statHtml.do?orgId=117&tblId=TX_117_2009_H8046&conn_path=I2,exact,126,4
+16-11-2,KOSIS-182-DT_182001_A020_2025,차별 받은 경험 - 병원 및 복지기관,https://kosis.kr/statHtml/statHtml.do?orgId=182&tblId=DT_182001_A020_2025&conn_path=I2,exact,120,1
+16-11-2,KOSIS-154-DT_MOGE_1001300873,결혼이민자/귀화자 등의 사회적 차별 경험,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_MOGE_1001300873&conn_path=I2,exact,120,2
+16-11-2,KOSIS-154-DT_MOGE_1001300876,지난 1년 동안 차별을 경험한 결혼이민자/귀화자 등의 대처방법(복수응답),https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_MOGE_1001300876&conn_path=I2,exact,120,3
+16-11-2,KOSIS-154-DT_MOGE_1001301048,차별경험 문항 RSE(본인),https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_MOGE_1001301048&conn_path=I2,exact,120,4
+16-12-1,KOSIS-164-DT_164003_A073,사이버폭력 피해 발생 시 법적 처벌 인지 여부,https://kosis.kr/statHtml/statHtml.do?orgId=164&tblId=DT_164003_A073&conn_path=I2,context,77,1
+16-12-1,KOSIS-127-TX_342_2009_H1352,사이버 보안사고 발생시 신고여부(2007~2008),https://kosis.kr/statHtml/statHtml.do?orgId=127&tblId=TX_342_2009_H1352&conn_path=I2,context,77,2
+16-12-1,KOSIS-164-DT_164003_A114,온라인 공간에서 온라인 안전 및 위험 활동 : 타인이 권리 침해 시 신고기능을 이용함,https://kosis.kr/statHtml/statHtml.do?orgId=164&tblId=DT_164003_A114&conn_path=I2,context,71,3
+16-12-1,KOSIS-127-DT_A12719_2022_I_A067,정보 침해사고 발생 원인_수사·공공기관 관련 범죄자 수사 노력 부족,https://kosis.kr/statHtml/statHtml.do?orgId=127&tblId=DT_A12719_2022_I_A067&conn_path=I2,context,70,4
+16-12-2,KOSIS-127-DT_12017N0010,일반국민 대비 취약계층 디지털정보화 역량 수준,https://kosis.kr/statHtml/statHtml.do?orgId=127&tblId=DT_12017N0010&conn_path=I2,near,86,1
+16-12-2,KOSIS-127-DT_12017N0013,"장애인의 성, 연령, 장애유형별 디지털정보화 수준",https://kosis.kr/statHtml/statHtml.do?orgId=127&tblId=DT_12017N0013&conn_path=I2,near,86,2
+16-12-2,KOSIS-127-DT_12017N0014,"고령층 성, 연령, 월가구소득별 디지털정보화 수준",https://kosis.kr/statHtml/statHtml.do?orgId=127&tblId=DT_12017N0014&conn_path=I2,near,86,3
+16-12-2,KOSIS-127-DT_12017N0015,"농어민 성, 연령, 월가구소득별 디지털정보화 수준",https://kosis.kr/statHtml/statHtml.do?orgId=127&tblId=DT_12017N0015&conn_path=I2,near,86,4
+16-2-2,KOSIS-791-DT_791008_2024E001,실종아동 신고처리 현황,https://kosis.kr/statHtml/statHtml.do?orgId=791&tblId=DT_791008_2024E001&conn_path=I2,context,67,1
+16-6-1,KOSIS-417-DT_417001_0042,기관별 공정한 업무수행에 대한 인식,https://kosis.kr/statHtml/statHtml.do?orgId=417&tblId=DT_417001_0042&conn_path=I2,context,78,1
+16-6-1,KOSIS-206-DT_206009_2025_045,기관신뢰도_중앙정부,https://kosis.kr/statHtml/statHtml.do?orgId=206&tblId=DT_206009_2025_045&conn_path=I2,context,68,2
+16-6-1,KOSIS-202-DT_20205Y2015F01N283,기관 신뢰도 - 구·군,https://kosis.kr/statHtml/statHtml.do?orgId=202&tblId=DT_20205Y2015F01N283&conn_path=I2,context,62,3
+16-7-1,KOSIS-170-DT_170002_F005,정치적 효능감,https://kosis.kr/statHtml/statHtml.do?orgId=170&tblId=DT_170002_F005&conn_path=I2,near,87,1
+16-9-2,KOSIS-402-DT_ES40201N_099,학교에서의 인권침해 경험(용모검사)(2013),https://kosis.kr/statHtml/statHtml.do?orgId=402&tblId=DT_ES40201N_099&conn_path=I2,near,81,1
+16-9-2,KOSIS-402-DT_NYPI_40201Y2011Q1,최근 1년간 학교 내에서의 인권침해 경험 유무 및 빈도(2011),https://kosis.kr/statHtml/statHtml.do?orgId=402&tblId=DT_NYPI_40201Y2011Q1&conn_path=I2,near,81,2
+16-9-2,KOSIS-154-DT_154022_22AA206200,최근 1년간 온라인 인권침해 피해 경험 여부_원치 않는 사람으로부터 지속적으로 연락을 받은 적이 있다,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_154022_22AA206200&conn_path=I2,context,61,3
+16-9-2,KOSIS-154-DT_154022_22AA207200,온라인 인권침해 피해를 경험한 공간,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_154022_22AA207200&conn_path=I2,context,61,4
+17-1-1,KOSIS-170-TX_10202_A000,우리나라의 공적개발원조(ODA) 지원규모,https://kosis.kr/statHtml/statHtml.do?orgId=170&tblId=TX_10202_A000&conn_path=I2,context,56,1
+17-1-1,KOSIS-113-DT_113_STBL_1015043,주요 선진국의 GNI 대비 여가지출 비용 비교,https://kosis.kr/statHtml/statHtml.do?orgId=113&tblId=DT_113_STBL_1015043&conn_path=I2,context,56,2
+17-1-1,KOSIS-150-DT_15002_B006,국가유산 ODA 지원 현황,https://kosis.kr/statHtml/statHtml.do?orgId=150&tblId=DT_15002_B006&conn_path=I2,context,56,3
+17-1-1,KOSIS-301-DT_200Y103,"경제활동별 GDP 및 GNI(계절조정, 명목, 분기)",https://kosis.kr/statHtml/statHtml.do?orgId=301&tblId=DT_200Y103&conn_path=I2,context,56,4
+2-1-1,KOSIS-177-DT_11702_N042,식품안정성 확보가구분율 추이,https://kosis.kr/statHtml/statHtml.do?orgId=177&tblId=DT_11702_N042&conn_path=I2,context,75,1
+2-2-1,KOSIS-101-DT_1EA1501,농가소득,https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1EA1501&conn_path=I2,exact,106,1
+2-2-1,KOSIS-311-TX_31101_A284,냉해농가소득사업비,https://kosis.kr/statHtml/statHtml.do?orgId=311&tblId=TX_31101_A284&conn_path=I2,exact,106,2
+2-2-1,KOSIS-217-DT_217003O_E008A,농가소득지표,https://kosis.kr/statHtml/statHtml.do?orgId=217&tblId=DT_217003O_E008A&conn_path=I2,exact,106,3
+2-2-2,KOSIS-110-DT_110032_A003,농작물 재해보험,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_110032_A003&conn_path=I2,near,92,1
+2-2-2,KOSIS-742-DT_742003N_A043,농작물재해보험 가입 여부,https://kosis.kr/statHtml/statHtml.do?orgId=742&tblId=DT_742003N_A043&conn_path=I2,near,92,2
+3-1-2,KOSIS-117-DT_117100_A008,당뇨병 입원율,https://kosis.kr/statHtml/statHtml.do?orgId=117&tblId=DT_117100_A008&conn_path=I2,context,56,1
+3-1-2,KOSIS-117-DT_117100_A009_1,당뇨병 하지 대절단율,https://kosis.kr/statHtml/statHtml.do?orgId=117&tblId=DT_117100_A009_1&conn_path=I2,context,56,2
+3-1-2,KOSIS-117-DT_117100_A009_2,당뇨병 하지 소절단율,https://kosis.kr/statHtml/statHtml.do?orgId=117&tblId=DT_117100_A009_2&conn_path=I2,context,56,3
+3-1-2,KOSIS-117-DT_117100_A009,당뇨병 하지 절단율,https://kosis.kr/statHtml/statHtml.do?orgId=117&tblId=DT_117100_A009&conn_path=I2,context,56,4
+3-1-3,KOSIS-154-DT_MOGE_1540002571,최근 음주・흡연율 - 집단 비교(2014),https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_MOGE_1540002571&conn_path=I2,context,72,1
+3-1-3,KOSIS-177-DT_117_12_Y003,현재 흡연율(일반담배(궐련) 현재사용률),https://kosis.kr/statHtml/statHtml.do?orgId=177&tblId=DT_117_12_Y003&conn_path=I2,context,72,2
+3-1-3,KOSIS-177-DT_117_12_Y004,매일 흡연율,https://kosis.kr/statHtml/statHtml.do?orgId=177&tblId=DT_117_12_Y004&conn_path=I2,context,72,3
+3-1-3,KOSIS-154-DT_MOGE_1540001847,흡연율 및 최초 흡연 현황(일반청소년)(2010),https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_MOGE_1540001847&conn_path=I2,context,72,4
+3-2-1,KOSIS-411-DT_41104_432,인구 십만명당 응급의학 전문의 수,https://kosis.kr/statHtml/statHtml.do?orgId=411&tblId=DT_41104_432&conn_path=I2,context,71,1
+3-5-1,KOSIS-101-DT_CC2024B001,출생아 부모 중 출생아 100명당 육아휴직자,https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_CC2024B001&conn_path=I2,context,55,1
+3-5-1,KOSIS-101-DT_CC2020B001,출생아 100명당 출생아 부모 중 육아휴직자,https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_CC2020B001&conn_path=I2,context,55,2
+3-6-1,KOSIS-110-DT_11001N_2013_A002,성별 출생아수 및 사망률,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_11001N_2013_A002&conn_path=I2,context,69,1
+3-6-1,KOSIS-101-DT_CC2024B001,출생아 부모 중 출생아 100명당 육아휴직자,https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_CC2024B001&conn_path=I2,context,58,2
+3-6-1,KOSIS-101-DT_CC2020B001,출생아 100명당 출생아 부모 중 육아휴직자,https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_CC2020B001&conn_path=I2,context,58,3
+3-6-2,KOSIS-350-DT_35007_N147,직역별 성별 영유아건강검진 대상 및 수검인원 현황,https://kosis.kr/statHtml/statHtml.do?orgId=350&tblId=DT_35007_N147&conn_path=I2,near,86,1
+3-6-2,KOSIS-350-DT_35007_N152,영유아건강검진 시도별 성별 구강검진 종합판정 현황,https://kosis.kr/statHtml/statHtml.do?orgId=350&tblId=DT_35007_N152&conn_path=I2,near,86,2
+3-6-2,KOSIS-350-DT_35007_N124,시군구별 성별 영유아 건강검진 대상 및 수검인원 현황,https://kosis.kr/statHtml/statHtml.do?orgId=350&tblId=DT_35007_N124&conn_path=I2,context,80,3
+3-6-2,KOSIS-350-DT_35007_N125,영유아 건강검진 결과현황,https://kosis.kr/statHtml/statHtml.do?orgId=350&tblId=DT_35007_N125&conn_path=I2,context,80,4
+3-6-3,KOSIS-402-DT_NYPI_40201Y2011Q34,비만도(2011),https://kosis.kr/statHtml/statHtml.do?orgId=402&tblId=DT_NYPI_40201Y2011Q34&conn_path=I2,near,81,1
+3-6-3,KOSIS-117-DT_117050_B001,정신장애 유병률(현재),https://kosis.kr/statHtml/statHtml.do?orgId=117&tblId=DT_117050_B001&conn_path=I2,context,80,2
+3-6-3,KOSIS-117-DT_117050_B029,정신장애 경험자의 게임중독 유병률(현재),https://kosis.kr/statHtml/statHtml.do?orgId=117&tblId=DT_117050_B029&conn_path=I2,context,80,3
+3-6-3,KOSIS-117-DT_117050_B004,주요우울장애 경험자의 사회인구학적 분포(현재),https://kosis.kr/statHtml/statHtml.do?orgId=117&tblId=DT_117050_B004&conn_path=I2,context,74,4
+3-7-2,KOSIS-106-DT_106N_99_1100051,국민환경보건 기초조사 결과 - 인체내 환경유해물질 노출 수준,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_99_1100051&conn_path=I2,context,69,1
+3-8-1,KOSIS-101-DT_1B34E08,"영아사망원인(67항목)/성/생존기간별 사망자수, 영아사망률(2005~)",https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B34E08&conn_path=I2,exact,106,1
+3-8-2,KOSIS-113-DT_113_STBL_1015514,OECD 회원국의 삶의 질 비교,https://kosis.kr/statHtml/statHtml.do?orgId=113&tblId=DT_113_STBL_1015514&conn_path=I2,near,87,1
+3-8-2,KOSIS-117-DT_117030_005,(OECD제출기준) 국민1인당 의사 및 치과의사 외래진료 횟수,https://kosis.kr/statHtml/statHtml.do?orgId=117&tblId=DT_117030_005&conn_path=I2,context,56,2
+3-8-2,KOSIS-117-DT_117110_A016,직역별 의료기관 근무의사(일반의/전문의) 연평균 임금: OECD 기준,https://kosis.kr/statHtml/statHtml.do?orgId=117&tblId=DT_117110_A016&conn_path=I2,context,56,3
+3-8-2,KOSIS-350-DT_35006_N029,근무인력별/월근무시간별/청구형태별/성별 OECD기준 장기요양 근무인력 현황,https://kosis.kr/statHtml/statHtml.do?orgId=350&tblId=DT_35006_N029&conn_path=I2,context,56,4
+3-9-1,KOSIS-113-DT_113_STBL_1011886,공연시설 : 인구 1천명당 객석수 현황,https://kosis.kr/statHtml/statHtml.do?orgId=113&tblId=DT_113_STBL_1011886&conn_path=I2,context,60,1
+4-10-1,KOSIS-101-DT_1PE201,학교급별  학생 1인당 월평균 사교육비,https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1PE201&conn_path=I2,near,94,1
+4-10-1,KOSIS-101-DT_1PE202,지역별 학생 1인당 월평균 사교육비,https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1PE202&conn_path=I2,near,94,2
+4-10-1,KOSIS-101-DT_1PE203,학생 성적 구간별 학생 1인당 월평균 사교육비,https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1PE203&conn_path=I2,near,94,3
+4-10-1,KOSIS-101-DT_1PE204,아버지의 연령별 학생 1인당 월평균 사교육비,https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1PE204&conn_path=I2,near,94,4
+4-2-2,KOSIS-202-DT_BS2020_3_121,미취학 아동 관련 지원 및 서비스별 이용률,https://kosis.kr/statHtml/statHtml.do?orgId=202&tblId=DT_BS2020_3_121&conn_path=I2,context,62,1
+4-2-2,KOSIS-112-DT_33107_N025,영유아 연령별 보육·교육 서비스 이용률,https://kosis.kr/statHtml/statHtml.do?orgId=112&tblId=DT_33107_N025&conn_path=I2,context,56,2
+4-2-2,KOSIS-112-DT_33107_N028,아동구분별 지역별 보육·교육 서비스 이용률(영유아),https://kosis.kr/statHtml/statHtml.do?orgId=112&tblId=DT_33107_N028&conn_path=I2,context,56,3
+4-2-3,KOSIS-112-DT_33107N_010,국공립어린이집 위탁체 유형,https://kosis.kr/statHtml/statHtml.do?orgId=112&tblId=DT_33107N_010&conn_path=I2,context,70,1
+4-3-1,KOSIS-334-DT_1963003_010,고등교육기관 개황,https://kosis.kr/statHtml/statHtml.do?orgId=334&tblId=DT_1963003_010&conn_path=I2,context,67,1
+4-3-1,KOSIS-114-DT_114058_C003,조리 인력 전문성 : 고등교육 이수,https://kosis.kr/statHtml/statHtml.do?orgId=114&tblId=DT_114058_C003&conn_path=I2,context,67,2
+4-3-1,KOSIS-101-DT_1ES0613,산업별_전공계열/고등교육(전문대이상),https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1ES0613&conn_path=I2,context,67,3
+4-3-1,KOSIS-101-DT_1ES0614,직업별_전공계열/고등교육(전문대이상),https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1ES0614&conn_path=I2,context,67,4
+4-4-1,KOSIS-334-DT_33409N_001,학습영역별 평생학습 참여율,https://kosis.kr/statHtml/statHtml.do?orgId=334&tblId=DT_33409N_001&conn_path=I2,exact,120,1
+4-4-1,KOSIS-334-TX_334_2009_H3090,학교·일터·지역사회별 평생학습 참여율,https://kosis.kr/statHtml/statHtml.do?orgId=334&tblId=TX_334_2009_H3090&conn_path=I2,exact,120,2
+4-4-1,KOSIS-334-TX_334_2009_H3043,사회적 약자 관점에서의  평생학습 참여율,https://kosis.kr/statHtml/statHtml.do?orgId=334&tblId=TX_334_2009_H3043&conn_path=I2,exact,120,3
+4-4-1,KOSIS-334-TX_334_2009_H3048,노년층(60세 이상)평생학습 참여율,https://kosis.kr/statHtml/statHtml.do?orgId=334&tblId=TX_334_2009_H3048&conn_path=I2,exact,120,4
+4-4-2,KOSIS-437-DT_43701N_025,직업교육훈련 경험 여부 및 분야,https://kosis.kr/statHtml/statHtml.do?orgId=437&tblId=DT_43701N_025&conn_path=I2,exact,120,1
+4-4-2,KOSIS-437-DT_43701N_029,직업교육훈련 수료 분야 근무 경험 및 미근무 이유,https://kosis.kr/statHtml/statHtml.do?orgId=437&tblId=DT_43701N_029&conn_path=I2,exact,120,2
+4-4-2,KOSIS-154-DT_MOGE_3036200137,경력단절 이후 첫 일자리를 얻기 위한 직업교육훈련기관 이용 경험 여부,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_MOGE_3036200137&conn_path=I2,exact,120,3
+4-4-2,KOSIS-383-TX_383_2009_H2052,장애인의 직업교육훈련 경험 여부,https://kosis.kr/statHtml/statHtml.do?orgId=383&tblId=TX_383_2009_H2052&conn_path=I2,exact,120,4
+4-4-3,KOSIS-154-DT_MOGE_1540002724,"현재까지 음주 경험 및 성인의 음주 권유, 강요 및 방조 경험",https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_MOGE_1540002724&conn_path=I2,context,71,1
+4-4-3,KOSIS-127-DT_120019N_2016_036,인터넷에 대한 기대 및 ICT 역량,https://kosis.kr/statHtml/statHtml.do?orgId=127&tblId=DT_120019N_2016_036&conn_path=I2,context,63,2
+4-4-3,KOSIS-154-DT_154022_22AA201400,갈등해결역량_내가 속한 집단의 문제해결을 위해 구체적인 계획이나 내용을 친구들과 공유한다,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_154022_22AA201400&conn_path=I2,context,57,3
+4-4-3,KOSIS-154-DT_154022_22AA201600,갈등해결역량_집단 내에서 발생한 문제에 대해 잘잘못을 따지기보다는 함께 해결하려고 노력한다,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_154022_22AA201600&conn_path=I2,context,57,4
+4-6-2,KOSIS-216-DT_50021,문해율,https://kosis.kr/statHtml/statHtml.do?orgId=216&tblId=DT_50021&conn_path=I2,context,72,1
+4-8-1,KOSIS-112-DT_11214_2014A003,장애유형별 일반학교 일반학급 및 특수학급의 모집단 규모,https://kosis.kr/statHtml/statHtml.do?orgId=112&tblId=DT_11214_2014A003&conn_path=I2,near,96,1
+4-8-3,KOSIS-154-DT_154022_22AA216900,청소년 지원기관 인지여부 및 이용경험_Wee클래스 또는 Wee센터,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_154022_22AA216900&conn_path=I2,near,99,1
+4-8-3,KOSIS-402-DT_ES2025_0005_5,가출 후 기관 이용 경험_위(Wee)클래스 또는 위(Wee)센터,https://kosis.kr/statHtml/statHtml.do?orgId=402&tblId=DT_ES2025_0005_5&conn_path=I2,near,99,2
+5-2-3,KOSIS-154-DT_154012_075,"여성긴급전화 1366, 성폭력상담소/보호시설, 디지털 성폭력 피해자 지원센터, 해바라기센터 등 성폭력 피해 관련 기관에 도움을 요청하지 않은 이유",https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_154012_075&conn_path=I2,context,74,1
+5-2-3,KOSIS-154-DT_154012_013,성폭력 발생 위험이 감소했다고 생각한 이유,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_154012_013&conn_path=I2,context,64,3
+5-2-3,KOSIS-154-DT_154012_015,현재 성폭력 발생 위험 정도,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_154012_015&conn_path=I2,context,64,4
+5-4-1,KOSIS-201-DT_201004_O160007,국회 및 지방의회의원 현황,https://kosis.kr/statHtml/statHtml.do?orgId=201&tblId=DT_201004_O160007&conn_path=I2,context,66,1
+5-4-3,KOSIS-338-DT_KWMP_2020140,조직내 양성평등 관련_관리자가 여성보다 남성과 일하는 것을 더 편하게 여김,https://kosis.kr/statHtml/statHtml.do?orgId=338&tblId=DT_KWMP_2020140&conn_path=I2,context,69,1
+5-4-3,KOSIS-154-DT_MOGE_15000001004,응답 기관(기업) 총 근로자 수 별 관리자급 여성근로자 수,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_MOGE_15000001004&conn_path=I2,context,69,2
+5-4-3,KOSIS-154-DT_117082_26AA001014,여성관리자 상/하위그룹 가족친화지수 비교,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_117082_26AA001014&conn_path=I2,context,69,3
+5-4-3,KOSIS-154-DT_MOGE_1500000242,여성 관리자 비중 기준 상.하위 20% 기업의 가족친화지수 영역별 결과(2012),https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_MOGE_1500000242&conn_path=I2,context,69,4
+5-5-3,KOSIS-331-TX_33101_B050,15~44세 유배우부인의 특성 및 방법별 피임실천율 분포,https://kosis.kr/statHtml/statHtml.do?orgId=331&tblId=TX_33101_B050&conn_path=I2,exact,120,1
+5-5-3,KOSIS-177-DT_COVID19_MASK_IN,시·군·구별 방역수칙 실천율(실내 마스크 착용),https://kosis.kr/statHtml/statHtml.do?orgId=177&tblId=DT_COVID19_MASK_IN&conn_path=I2,context,72,2
+5-5-3,KOSIS-177-DT_COVID19_DISTANCE,시·군·구별 사회적 거리두기(또는 생활 속 거리두기) 실천율(건강거리 유지),https://kosis.kr/statHtml/statHtml.do?orgId=177&tblId=DT_COVID19_DISTANCE&conn_path=I2,context,72,3
+5-5-3,KOSIS-177-DT_117_12_Y037,주3일 이상 고강도 신체활동 실천율,https://kosis.kr/statHtml/statHtml.do?orgId=177&tblId=DT_117_12_Y037&conn_path=I2,context,72,4
+5-6-1,KOSIS-154-DT_154022_22AA207600,최근 1년 간 건전한 인터넷/스마트폰 이용 교육 여부와 도움 정도,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_154022_22AA207600&conn_path=I2,context,67,1
+5-6-1,KOSIS-154-DT_154022_22AA218800,"앞으로 제공되었으면 하는 서비스_사이버(게임, 도박, 스마트폰) 중독 치료지원",https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_154022_22AA218800&conn_path=I2,context,67,2
+5-6-1,KOSIS-154-DT_154022_22AA205200,스마트폰 이용 경험_스마트폰 이용시간을 줄이려 할 때마다 실패한다,https://kosis.kr/statHtml/statHtml.do?orgId=154&tblId=DT_154022_22AA205200&conn_path=I2,context,67,3
+5-6-2,KOSIS-127-DT_B03101_FRM105900,이공계대학 학제 및 설립유형별 소속교원 보직(관리직) 현황,https://kosis.kr/statHtml/statHtml.do?orgId=127&tblId=DT_B03101_FRM105900&conn_path=I2,context,76,1
+5-6-2,KOSIS-127-DT_B03104_FRM105900,공공 및 민간기업연구기관 과학기술연구개발인력 보직(관리직) 현황,https://kosis.kr/statHtml/statHtml.do?orgId=127&tblId=DT_B03104_FRM105900&conn_path=I2,context,76,2
+5-6-2,KOSIS-127-DT_B03105_FRM105900,공공연구기관 설립유형별 과학기술연구개발인력 보직(관리직) 현황,https://kosis.kr/statHtml/statHtml.do?orgId=127&tblId=DT_B03105_FRM105900&conn_path=I2,context,76,3
+5-6-2,KOSIS-127-DT_B03106_FRM105900,민간기업연구기관 업종별 과학기술연구개발인력 보직(관리직) 현황,https://kosis.kr/statHtml/statHtml.do?orgId=127&tblId=DT_B03106_FRM105900&conn_path=I2,context,76,4
+6-1-1,KOSIS-106-DT_106N_35_2024004,수돗물에 대한 전반적 만족도,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_35_2024004&conn_path=I2,exact,120,1
+6-1-1,KOSIS-106-DT_106N_35_2024020,수돗물 공급 과정 전반적 만족도,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_35_2024020&conn_path=I2,exact,120,2
+6-1-1,KOSIS-106-DT_106N_35_2024031,"수돗물 지원 및 서비스 인지도, 이용경험, 만족도",https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_35_2024031&conn_path=I2,exact,120,3
+6-1-1,KOSIS-106-DT_106N_35_2024033,수돗물 만족도 향상을 위해 강화되어야 할 제도 및 정책,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_35_2024033&conn_path=I2,exact,120,4
+6-1-2,KOSIS-110-DT_110001_A052,상수도 급수 및 보급률,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_110001_A052&conn_path=I2,context,67,1
+6-1-2,KOSIS-110-DT_11001N_2013_A055,1일 1인당 급수량 및 상수도 보급률,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_11001N_2013_A055&conn_path=I2,context,67,2
+6-1-2,KOSIS-143-DT_1EU350,상수도 보급률,https://kosis.kr/statHtml/statHtml.do?orgId=143&tblId=DT_1EU350&conn_path=I2,context,67,3
+6-1-2,KOSIS-311-TX_31101_A105,농어촌진흥공사 출자 및 농어촌지역 종합개발(~1997),https://kosis.kr/statHtml/statHtml.do?orgId=311&tblId=TX_31101_A105&conn_path=I2,context,59,4
+6-2-1,KOSIS-110-DT_110001_A053,하수도 보급률,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_110001_A053&conn_path=I2,near,87,1
+6-2-1,KOSIS-110-DT_A11001_2009_0807,하수도 인구 및 보급률(2008),https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_A11001_2009_0807&conn_path=I2,near,87,2
+6-2-1,KOSIS-563-DT_56301_G000013,하수도보급률,https://kosis.kr/statHtml/statHtml.do?orgId=563&tblId=DT_56301_G000013&conn_path=I2,near,87,3
+6-2-1,KOSIS-714-DT_71401_G009,하수도  보급률,https://kosis.kr/statHtml/statHtml.do?orgId=714&tblId=DT_71401_G009&conn_path=I2,near,87,4
+6-3-3,KOSIS-106-DT_106N_03_0100007,전국 대기오염물질 배출량(1999~),https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_03_0100007&conn_path=I2,context,66,1
+6-3-3,KOSIS-106-DT_106N_01_0100057,"사업장 규모별 특정 수질유해물질배출 사업장수, 특정폐수량, 주요 오염물질 부하량",https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_01_0100057&conn_path=I2,context,66,2
+6-3-3,KOSIS-106-DT_106N_03_0200078,대기오염물질 배출시설 설치 허가 변경허가 및 신고 변경신고 현황,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_03_0200078&conn_path=I2,context,66,3
+6-3-3,KOSIS-110-DT_110001_A050,오염물질 배출시설 수,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_110001_A050&conn_path=I2,context,66,4
+6-4-1,KOSIS-106-DT_106N_06_0100042,상수도 보급현황(총괄),https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_06_0100042&conn_path=I2,context,56,1
+6-4-1,KOSIS-101-DT_1W9A041,상수도시설,https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1W9A041&conn_path=I2,context,56,2
+6-4-1,KOSIS-110-DT_110001_A052,상수도 급수 및 보급률,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_110001_A052&conn_path=I2,context,56,3
+6-4-1,KOSIS-110-DT_11001N_2013_A055,1일 1인당 급수량 및 상수도 보급률,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_11001N_2013_A055&conn_path=I2,context,56,4
+7-1-1,KOSIS-800-DT_800003_2025J011,에너지바우처,https://kosis.kr/statHtml/statHtml.do?orgId=800&tblId=DT_800003_2025J011&conn_path=I2,context,72,1
+7-2-1,KOSIS-337-DT_337N_A002,"신·재생에너지 발전량(비재생폐기물 제외, 2019년 4/4분기~)",https://kosis.kr/statHtml/statHtml.do?orgId=337&tblId=DT_337N_A002&conn_path=I2,near,104,1
+7-2-1,KOSIS-337-TX_33701_A005,"지역별 신·재생에너지 발전량(비재생폐기물 제외, 2019년 4/4분기~)",https://kosis.kr/statHtml/statHtml.do?orgId=337&tblId=TX_33701_A005&conn_path=I2,near,104,2
+7-2-1,KOSIS-337-DT_337004_2021_D001,신재생에너지 발전 및 열공급업 현황 - 사업체수,https://kosis.kr/statHtml/statHtml.do?orgId=337&tblId=DT_337004_2021_D001&conn_path=I2,near,104,3
+7-2-1,KOSIS-337-DT_337N_A004,에너지 보급용량(고유단위-발전외)(1995~2003),https://kosis.kr/statHtml/statHtml.do?orgId=337&tblId=DT_337N_A004&conn_path=I2,near,98,4
+7-2-2,KOSIS-337-DT_337N_A001,"신·재생에너지 생산량(비재생폐기물 제외, 2019년 4/4분기~)",https://kosis.kr/statHtml/statHtml.do?orgId=337&tblId=DT_337N_A001&conn_path=I2,near,96,1
+7-2-2,KOSIS-337-TX_33701_A004,"지역별 신·재생에너지 생산량(비재생폐기물 제외, 2019년 4/4분기~)",https://kosis.kr/statHtml/statHtml.do?orgId=337&tblId=TX_33701_A004&conn_path=I2,near,96,2
+7-2-2,KOSIS-388-DT_38804_B03,신재생에너지 전력거래량,https://kosis.kr/statHtml/statHtml.do?orgId=388&tblId=DT_38804_B03&conn_path=I2,near,96,3
+7-2-2,KOSIS-388-DT_38804_C09,신재생에너지 정산단가,https://kosis.kr/statHtml/statHtml.do?orgId=388&tblId=DT_38804_C09&conn_path=I2,near,96,4
+8-1-1,KOSIS-113-DT_113_STBL_1016619,OECD 국가별 1인당 GDP 및 교양오락비 비율,https://kosis.kr/statHtml/statHtml.do?orgId=113&tblId=DT_113_STBL_1016619&conn_path=I2,context,77,1
+8-1-1,KOSIS-301-DT_200Y104,"경제활동별 GDP 및 GNI(계절조정, 실질, 분기)",https://kosis.kr/statHtml/statHtml.do?orgId=301&tblId=DT_200Y104&conn_path=I2,context,63,2
+8-1-1,KOSIS-301-DT_200Y123,"경제활동별 성장기여도(계절조정, 실질, 분기)",https://kosis.kr/statHtml/statHtml.do?orgId=301&tblId=DT_200Y123&conn_path=I2,context,57,3
+8-1-1,KOSIS-301-DT_200Y125,"지출항목별 성장기여도(계절조정, 실질, 분기)",https://kosis.kr/statHtml/statHtml.do?orgId=301&tblId=DT_200Y125&conn_path=I2,context,57,4
+8-2-2,KOSIS-116-DT_MLTM_7093,연평균 임금수준_비정규직,https://kosis.kr/statHtml/statHtml.do?orgId=116&tblId=DT_MLTM_7093&conn_path=I2,exact,120,1
+8-2-2,KOSIS-101-DT_1DE7110_11,"연령/산업/직업별 비정규직 근로자 규모 및 비중(총괄)(산업11차, 직업8차)",https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1DE7110_11&conn_path=I2,exact,120,2
+8-2-2,KOSIS-101-DT_1DE7006S,성/연령별 근로형태(비정규직)별 취업자,https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1DE7006S&conn_path=I2,exact,120,3
+8-2-2,KOSIS-101-DT_1DE7009S,성/교육정도/근로형태별(비정규직) 취업자,https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1DE7009S&conn_path=I2,exact,120,4
+8-3-1,KOSIS-706-DT_706003_2025G023,중소기업 취업 의향 여부(미취업자),https://kosis.kr/statHtml/statHtml.do?orgId=706&tblId=DT_706003_2025G023&conn_path=I2,near,82,1
+8-3-1,KOSIS-715-DT_715002_2022D018,미취업자 중소기업 취업 의향,https://kosis.kr/statHtml/statHtml.do?orgId=715&tblId=DT_715002_2022D018&conn_path=I2,near,82,2
+8-3-1,KOSIS-715-DT_715002_033,비취업자 중소기업 취업 의향 및 이유,https://kosis.kr/statHtml/statHtml.do?orgId=715&tblId=DT_715002_033&conn_path=I2,near,82,3
+8-3-2,KOSIS-112-DT_112017N_070,학생 창업기업 현황,https://kosis.kr/statHtml/statHtml.do?orgId=112&tblId=DT_112017N_070&conn_path=I2,exact,106,1
+8-3-2,KOSIS-112-DT_112017N_067,학생 창업기업의 수(매출발생기업),https://kosis.kr/statHtml/statHtml.do?orgId=112&tblId=DT_112017N_067&conn_path=I2,exact,106,2
+8-3-2,KOSIS-112-DT_112017N_076,교원 창업기업의 성과,https://kosis.kr/statHtml/statHtml.do?orgId=112&tblId=DT_112017N_076&conn_path=I2,exact,106,3
+8-3-2,KOSIS-112-DT_112017N_077,대학 기술기반 창업기업 현황,https://kosis.kr/statHtml/statHtml.do?orgId=112&tblId=DT_112017N_077&conn_path=I2,exact,106,4
+8-4-1,KOSIS-791-DT_791007_2023A058,연령별 임금 근로자 월 평균 임금 및 임금격차,https://kosis.kr/statHtml/statHtml.do?orgId=791&tblId=DT_791007_2023A058&conn_path=I2,exact,106,1
+8-5-1,KOSIS-113-DT_113_STBL_1029802,다문화・새터민・성소수자・이주노동자 대상 특화 문화프로그램 건 수,https://kosis.kr/statHtml/statHtml.do?orgId=113&tblId=DT_113_STBL_1029802&conn_path=I2,near,87,1
+8-5-1,KOSIS-213-DT_213014_A016,"충청남도에서 이주노동자, 결혼이주여성 등 이주민 인권 존중 정도",https://kosis.kr/statHtml/statHtml.do?orgId=213&tblId=DT_213014_A016&conn_path=I2,near,87,2
+8-6-2,KOSIS-118-DT_118006_003,휴업재해율 현황,https://kosis.kr/statHtml/statHtml.do?orgId=118&tblId=DT_118006_003&conn_path=I2,exact,106,1
+9-1-1,KOSIS-116-DT_MLTM_966,시・도별 도로보급률,https://kosis.kr/statHtml/statHtml.do?orgId=116&tblId=DT_MLTM_966&conn_path=I2,exact,120,1
+9-1-1,KOSIS-116-DT_MLTM_2100,(新)주택보급률,https://kosis.kr/statHtml/statHtml.do?orgId=116&tblId=DT_MLTM_2100&conn_path=I2,context,72,2
+9-1-1,KOSIS-116-DT_MLTM_592,(종전)주택보급률,https://kosis.kr/statHtml/statHtml.do?orgId=116&tblId=DT_MLTM_592&conn_path=I2,context,72,3
+9-1-1,KOSIS-110-DT_110001_A009,주택 수 및 주택보급률,https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_110001_A009&conn_path=I2,context,72,4
+9-2-2,KOSIS-127-DT_127004N_000,데이터산업 시장규모,https://kosis.kr/statHtml/statHtml.do?orgId=127&tblId=DT_127004N_000&conn_path=I2,exact,120,1
+9-2-2,KOSIS-127-DT_127004_A210,데이터산업 수요처별 시장규모,https://kosis.kr/statHtml/statHtml.do?orgId=127&tblId=DT_127004_A210&conn_path=I2,exact,120,2
+9-2-2,KOSIS-127-DT_127004N_013,데이터산업 직접매출 시장규모,https://kosis.kr/statHtml/statHtml.do?orgId=127&tblId=DT_127004N_013&conn_path=I2,exact,120,3
+9-2-2,KOSIS-127-DT_127004N_003,데이터 처리 및 관리 솔루션 개발·공급업 영역별 시장규모,https://kosis.kr/statHtml/statHtml.do?orgId=127&tblId=DT_127004N_003&conn_path=I2,exact,114,4
+9-2-3,KOSIS-152-DT_15201_2012_N010,산업집중도 지표별 평균집중률 추이,https://kosis.kr/statHtml/statHtml.do?orgId=152&tblId=DT_15201_2012_N010&conn_path=I2,exact,106,1
+9-4-1,KOSIS-127-DT_KBA0001,연구개발비 및 GDP 대비 연구개발비 비율,https://kosis.kr/statHtml/statHtml.do?orgId=127&tblId=DT_KBA0001&conn_path=I2,exact,120,1
+9-4-1,KOSIS-358-DT_358005_020,고령친화 용품 제조업 연구개발 활동 및 연구개발비,https://kosis.kr/statHtml/statHtml.do?orgId=358&tblId=DT_358005_020&conn_path=I2,context,75,2
+9-4-1,KOSIS-358-DT_358004_014,연구개발비,https://kosis.kr/statHtml/statHtml.do?orgId=358&tblId=DT_358004_014&conn_path=I2,context,75,3
+9-4-1,KOSIS-358-DT_358004_015,제약(의약품) 부문 연구분야별 연구개발비,https://kosis.kr/statHtml/statHtml.do?orgId=358&tblId=DT_358004_015&conn_path=I2,context,75,4
+9-5-1,KOSIS-127-TX_10506_A076,발전원별 등가이산화탄소 배출량,https://kosis.kr/statHtml/statHtml.do?orgId=127&tblId=TX_10506_A076&conn_path=I2,context,76,1
+9-5-2,KOSIS-106-DT_106N_99_3300017,폐기물 발생현황_사업장배출시설계폐기물(1996-1998),https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_99_3300017&conn_path=I2,near,95,1
+9-5-2,KOSIS-106-DT_106N_29_2020007,폐기물 발생량 및 처리현황_사업장배출시설계폐기물,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_29_2020007&conn_path=I2,near,95,2
+9-5-2,KOSIS-106-DT_106N_29_2020011,폐기물 처리주체별 처리현황_사업장배출시설계폐기물,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_29_2020011&conn_path=I2,near,95,3
+9-5-2,KOSIS-106-DT_106N_99_3300008,폐기물 처리현황_사업장배출시설계폐기물,https://kosis.kr/statHtml/statHtml.do?orgId=106&tblId=DT_106N_99_3300008&conn_path=I2,near,95,4

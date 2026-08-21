@@ -1,0 +1,367 @@
+// 국가지속가능발전목표(K-SDGs) 지표 대시보드 — 데이터 모델
+// 계층: Goal(목표) > Target(세부목표) > Indicator(지표) > IndicatorValue(연도별 실적)
+// 프레임워크 중립적으로 설계 — 나중에 자체 환경계획 지표로 교체해도 스키마 변경 불필요.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+/// 부문 — 제4차 지속가능발전 기본계획 2부의 Ⅰ~Ⅳ. 대시보드를 나누는 최상위 축.
+/// 목표(Goal)가 이 아래에 묶인다. 부문 페이지는 /areas/{code} 로 열린다.
+model Track {
+  id          String   @id @default(cuid())
+  code        String   @unique // URL 경로로 쓰인다. 예: plan / state / perception
+  name        String
+  description String?
+  color       String? // 비우면 팔레트에서 자동 배정
+  icon        String?
+  order       Int      @default(0)
+  published   Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  goals Goal[]
+}
+
+model Goal {
+  id          String   @id @default(cuid())
+  code        String   @unique // 예: G13
+  trackId     String
+  no          String // 표시용 번호. 예: 13
+  name        String
+  description String?
+  color       String? // 비우면 팔레트에서 자동 배정
+  icon        String? // 이모지
+  order       Int      @default(0)
+  published   Boolean  @default(true) // false = 임시저장(비공개)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  track   Track    @relation(fields: [trackId], references: [id], onDelete: Cascade)
+  targets Target[]
+  actions Action[]
+
+  @@index([trackId])
+}
+
+model Target {
+  id          String   @id @default(cuid())
+  code        String   @unique // 예: 13-1
+  goalId      String
+  name        String
+  description String?
+  order       Int      @default(0)
+  published   Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  goal       Goal        @relation(fields: [goalId], references: [id], onDelete: Cascade)
+  indicators Indicator[]
+  actions    Action[]
+
+  @@index([goalId])
+}
+
+model Indicator {
+  id       String @id @default(cuid())
+  code     String @unique // 예: 13-1-1
+  targetId String
+  name     String
+
+  definition String? // 지표 설명
+  method     String? // 산출식
+  unit       String? // 단위
+  direction  String  @default("up") // up = 클수록 좋음 / down = 작을수록 좋음
+
+  baselineYear  Int?
+  baselineValue Float?
+  targetYear    Int?
+  targetValue   Float? // 비우면 "모니터링 지표"
+
+  /// 제4차 지속가능발전 기본계획은 2030(중간)·2040(최종) 두 목표연도를 갖는다.
+  longYear      Int?
+  longValue     Float?
+  /// 수치가 아닌 목표 서술. 예: "지속 감소", "안정적 유지", "기반 마련"
+  /// 수치 목표일 때도 원문("14.3%")을 담아 화면이 분기 없이 렌더할 수 있게 한다.
+  targetLabel   String?
+  longLabel     String?
+  /// 정량 | 정성 | 통계미구축 — 비우면 값·목표 유무로 자동 판정
+  kind          String?
+  /// 근거문서 쪽수 (제4차 기본계획 원문)
+  sourcePage    Int?
+
+  source      String?
+  sourceUrl   String?
+  updateCycle String?
+  custodian   String?
+
+  statusOverride String? // 자동 판정을 덮어쓸 때만
+  isHeadline     Boolean @default(false)
+  published      Boolean @default(true)
+  note           String?
+  order          Int     @default(0)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  target Target           @relation(fields: [targetId], references: [id], onDelete: Cascade)
+  values IndicatorValue[]
+  stats  IndicatorStat[]
+
+  @@index([targetId])
+}
+
+model IndicatorValue {
+  id          String   @id @default(cuid())
+  indicatorId String
+  year        Int
+  value       Float
+  region      String   @default("전국")
+  note        String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  indicator Indicator @relation(fields: [indicatorId], references: [id], onDelete: Cascade)
+
+  @@unique([indicatorId, year, region])
+  @@index([indicatorId])
+}
+
+model Action {
+  id          String   @id @default(cuid())
+  code        String   @unique // 예: A-13-01
+  goalId      String?
+  targetId    String?
+  title       String
+  summary     String?
+  status      String   @default("추진중") // 완료 | 추진중 | 지연 | 예정
+  dueYear     Int?
+  responsible String?
+  lastUpdate  String? // YYYY-MM-DD
+  links       String? // "제목|URL;제목|URL"
+  order       Int      @default(0)
+  published   Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  goal   Goal?   @relation(fields: [goalId], references: [id], onDelete: SetNull)
+  target Target? @relation(fields: [targetId], references: [id], onDelete: SetNull)
+
+  @@index([goalId])
+}
+
+/// 중ㆍ장기 행정계획 — 「지속가능발전 기본법 시행령」 [별표] 제9조제2항 관련.
+/// 지속가능발전 기본전략과의 조화 여부를 검토받아야 하는 중앙행정기관의 계획 목록이다.
+/// 지표(Indicator) 체계와는 별개 축이라 관계를 걸지 않는다.
+model Plan {
+  id   String @id @default(cuid())
+  seq  String @unique // 연번. 가지번호가 있어 숫자가 아니다 (예: "73의2")
+  kind String? // 본번 | 가지번호
+  name String // 계획명
+
+  law     String? // 근거법률
+  article String? // 근거조문
+  edition String? // 최신차수
+  period  String? // 계획기간
+  cycle   String? // 갱신주기
+  ministry String? // 소관부처
+
+  /// 확인 | 참고 | 미확인 | 해당없음 — 근거를 못 찾으면 추정하지 않고 미확인으로 둔다
+  confidence String?
+
+  /// 원문 파일을 확보했는지. 시드가 실제 파일 존재를 확인해 넣는다.
+  hasDoc  Boolean @default(false)
+  /// 문서 보관소 기준 상대경로 (예: docs/구조ㆍ구급 기본계획.pdf)
+  docFile String?
+  docNote String?
+  /// 파일 크기(byte) — 목록에서 내려받기 전에 보여준다
+  docSize Int?
+
+  remark    String? // 특이사항
+  sourceUrl String? // 출처
+  note      String? // 비고
+
+  published Boolean  @default(true)
+  order     Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([ministry])
+}
+
+/// 미래변화 시나리오 — 정부·국제기구가 공식 발표한 장기 전망 10종.
+/// K-SDGs 지표 체계와는 별개 축이며, ScenarioIndicator 의 sdgPrimary 로 목표에 연결된다.
+model Scenario {
+  id       String  @id @default(cuid())
+  code     String  @unique // S01
+  axis     String // population | climate | carbon | economy | environment
+  title    String
+  subtitle String?
+  org      String? // 발표기관
+  doc      String? // 근거 문서명
+  url      String?
+  yearFrom Int?
+  yearTo   Int?
+  /// 시나리오 변형(중위/저위/고위 등). 세미콜론 구분
+  variants String?
+
+  /// 대표 수치 — {label, value, delta, badge, confidence} JSON
+  headline    String?
+  definition  String?
+  /// 주요 가정 목록 JSON 배열
+  assumptions String?
+  uncertainty String?
+
+  order     Int      @default(0)
+  published Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  indicators ScenarioIndicator[]
+}
+
+/// 시나리오가 전망하는 변수. direct = 시나리오 원문이 직접 제시, indirect = 매개 경로를 거친 추정.
+model ScenarioIndicator {
+  id         String @id @default(cuid())
+  code       String @unique // S01-D1
+  scenarioId String
+  name       String
+  unit       String?
+  /// direct | indirect
+  kind       String @default("direct")
+
+  sdgPrimary   Int? // 주 연결 목표 번호 1~17
+  /// 부 연결 목표 번호들. 쉼표 구분
+  sdgSecondary String?
+  /// positive | negative | mixed — SDG 달성에 유리한 방향인가
+  direction    String?
+  /// strong | medium | weak
+  strength     String?
+
+  /// R 보고서수록 | S 통계산출 | E 모델추정 | B 국제비교
+  badge      String?
+  /// high | mid | low
+  confidence String?
+  headline   String?
+
+  seriesName String?
+  /// [{y, v, b, c}] JSON
+  series     String?
+  /// [{name, points:[{y,v}]}] JSON
+  seriesAlt  String?
+  /// {definition, sources, steps, assumptions, limits, badge_reason} JSON
+  method     String?
+
+  order     Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  scenario Scenario   @relation(fields: [scenarioId], references: [id], onDelete: Cascade)
+  links    StatLink[]
+
+  @@index([scenarioId])
+  @@index([sdgPrimary])
+}
+
+/// 연관 통계 카탈로그 — "이 지표를 어디서 가져오나"의 답.
+/// goals·targets 는 K-SDGs 목표번호·세부목표코드라서 Target.code 로 바로 이어붙는다.
+model StatSource {
+  id     String  @id @default(cuid())
+  code   String  @unique // ST01
+  name   String
+  org    String?
+  portal String? // KOSIS | e-나라지표 | 기관 누리집 …
+  freq   String? // 갱신주기
+  /// 연결 목표 번호. 쉼표 구분 (예: "3,10,11")
+  goals   String?
+  /// 연결 세부목표 코드. 쉼표 구분 (예: "3-8,11-3") — Target.code 와 같은 체계
+  targets String?
+  note    String?
+  /// 이 통계를 실제로 조회할 수 있는 주소. 비워두지 않는다 — 링크가 비면 "되는 둥 마는 둥"이 된다.
+  url     String?
+  /// 작성기관 누리집
+  orgUrl  String?
+  /// 어디서 온 항목인가 — 카탈로그(직접 정리) | 지표누리 | e-나라지표
+  source  String?
+  /// 지표 자동 연결에 쓰는 키워드. 쉼표 구분
+  keywords String?
+  /// 이 통계가 주로 다루는 영역 (인구·건강·환경 …)
+  domain   String?
+  /// 법정통계 승인번호 등 식별 정보. 확인한 것만 적는다 — 지어내지 않는다.
+  statNo   String?
+
+  order     Int      @default(0)
+  published Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  links      StatLink[]
+  indicators IndicatorStat[]
+}
+
+/// K-SDGs 지표 ↔ 연관 통계 연결.
+/// 「이 지표를 무엇으로 재나」를 답하는 데이터맵의 간선이다.
+/// StatLink(통계 ↔ 시나리오지표)와 방향이 반대인 별개의 관계다.
+model IndicatorStat {
+  id          String @id @default(cuid())
+  indicatorId String
+  statId      String
+
+  /// exact 일치 | near 근접 | context 관련
+  match String @default("context")
+  /// 왜 이 통계가 이 지표와 연결되는지
+  note  String?
+  /// true = 규칙으로 자동 도출한 연결. 사람이 검수하기 전까지 화면에 그렇게 표시한다.
+  auto  Boolean @default(true)
+  /// 자동 도출의 근거가 된 키워드
+  hits  String?
+
+  order     Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  indicator Indicator  @relation(fields: [indicatorId], references: [id], onDelete: Cascade)
+  stat      StatSource @relation(fields: [statId], references: [id], onDelete: Cascade)
+
+  @@unique([indicatorId, statId])
+  @@index([statId])
+}
+
+/// 통계 ↔ 시나리오지표 연결. 전망 데이터 출처 지도의 간선이다.
+model StatLink {
+  id            String @id @default(cuid())
+  statId        String
+  indicatorCode String
+  /// exact 일치 | near 근접 | context 관련
+  match         String @default("context")
+
+  stat      StatSource         @relation(fields: [statId], references: [id], onDelete: Cascade)
+  indicator ScenarioIndicator? @relation(fields: [indicatorCode], references: [code], onDelete: Cascade)
+
+  @@unique([statId, indicatorCode])
+  @@index([indicatorCode])
+}
+
+model Config {
+  key       String   @id
+  value     String
+  updatedAt DateTime @updatedAt
+}
+
+model AuditLog {
+  id       String   @id @default(cuid())
+  at       DateTime @default(now())
+  actor    String   @default("관리자")
+  action   String // create | update | delete | import | publish
+  entity   String // Goal | Target | Indicator | IndicatorValue | Action | Config
+  entityId String?
+  label    String? // 사람이 읽을 대상 이름
+  detail   String? // 변경 요약(JSON)
+
+  @@index([at])
+}

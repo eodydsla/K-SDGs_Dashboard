@@ -1,0 +1,57 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+# 비밀번호가 들어있지 않은 견본은 커밋한다 — 복사해서 쓸 때 필요
+!.env.example
+
+# database — sheets/*.csv 로부터 `npm run db:push && npm run db:seed` 로 다시 만든다
+/prisma/*.db
+/prisma/*.db-journal
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# jupyter 부산물
+.ipynb_checkpoints/
+
+# 행정계획 원문 PDF 1GB — GitHub 파일 크기 한도(100MB)를 넘는 파일이 있어 저장소에 넣지 않는다.
+# 원본은 별도 보관소에 있고 `scripts/build-plans.ts`(PLANS_DIR)로 다시 복사한다.
+/public/plans/
+
+# KOSIS 통계표 전량 크롤링 결과 67MB — `scripts/crawl-kosis-tables` 로 재수집 가능한 중간 산출물
+/data/kosis-tables.json

@@ -1,0 +1,18 @@
+goal_id,track_id,goal_no,goal_name,goal_desc,color,icon,order,display
+G1,inclusive,1,빈곤층 감소와 사회안전망 강화,,#EA1D2D,🏠,1,TRUE
+G2,inclusive,2,식량안보 및 지속가능한 농업 강화,,#D19F2A,🌾,2,TRUE
+G3,inclusive,3,건강하고 행복한 삶 보장,,#2D9A47,❤️,3,TRUE
+G4,inclusive,4,모두를 위한 양질의 교육,,#C22033,📚,4,TRUE
+G5,inclusive,5,성평등 보장,,#EF412A,⚖️,5,TRUE
+G11,inclusive,11,지속가능한 도시와 주거지,,#F99D25,🏙️,6,TRUE
+G8,growth,8,좋은 일자리 확대와 경제성장,,#8F1838,💼,1,TRUE
+G9,growth,9,산업의 성장과 혁신 활성화 및 사회기반시설 구축,,#F36E24,🏭,2,TRUE
+G10,growth,10,모든 종류의 불평등 해소,,#E01A83,🫱,3,TRUE
+G12,growth,12,지속가능한 생산과 소비,,#CD8B2A,♻️,4,TRUE
+G6,environment,6,건강하고 안전한 물관리,,#00ADD8,💧,1,TRUE
+G7,environment,7,에너지의 친환경적 생산과 소비,,#FDB714,⚡,2,TRUE
+G13,environment,13,기후변화와 대응,,#48773C,🌡️,3,TRUE
+G14,environment,14,해양생태계 보전,,#007DBB,🌊,4,TRUE
+G15,environment,15,육상생태계 보전,,#40AE49,🌳,5,TRUE
+G16,peace,16,평화･정의･포용,,#00558A,🕊️,1,TRUE
+G17,peace,17,지구촌 협력 강화,,#1A3668,🌐,2,TRUE

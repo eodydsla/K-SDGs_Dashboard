@@ -1,0 +1,18 @@
+key,value
+site_title,국가지속가능발전목표(K-SDGs) 이행현황
+site_subtitle,17개 목표 · 119개 세부목표 · 236개 지표의 이행 상황을 한눈에 확인합니다
+level0_label,부문
+level1_label,목표
+level2_label,세부목표
+level3_label,지표
+framework_name,제4차 지속가능발전 기본계획 (2021~2040)
+org_name,국가지속가능발전연구센터
+org_parent,국무조정실 · 한국환경연구원(KEI)
+target_year_default,2030
+long_year_default,2040
+last_updated,2026-08-20
+contact,
+hero_headline,국가지속가능발전목표의 이행 현황을 한 곳에서
+hero_keywords,온실가스;재생에너지;상대빈곤율;미세먼지;고용률;생물다양성
+data_status,기준값·목표값 기반 (연도별 시계열 구축 중)
+footer_note,"본 페이지의 지표 수치는 제4차 지속가능발전 기본계획 원문에서 추출한 값이며, 소관부처의 최신 공표 통계와 다를 수 있습니다."
