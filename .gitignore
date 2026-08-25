@@ -55,3 +55,6 @@ next-env.d.ts
 
 # KOSIS 통계표 전량 크롤링 결과 67MB — `scripts/crawl-kosis-tables` 로 재수집 가능한 중간 산출물
 /data/kosis-tables.json
+
+# systemd 사용자 서비스(ksdgs-dashboard) 로그
+/.dev-server.log
